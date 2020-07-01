@@ -3,25 +3,101 @@
     <title>test form</title>
 </head>
 <body>
-    <h1>welcome to the survey </h1>
+    <h1>Welcome To The Survey </h1>
     <form id="myform" action="/surveyresponse" method="post">
-        <div class="form-field">
-            <label for="title">Title:</label>
-            <input name="title" id="title" type="text" value="" size="40" aria-required="true">
-        </div>
-        <div class="form-field form-required">
-            <label for="your-name">Your Name:</label>
-            <input name="yourName" id="yourName" type="text" value="" size="40" aria-required="true">
-        </div>
-        <div class="form-field">
-            <label for="contact-no">Contact No:</label>
-            <input name="contact" id="contact" type="text" value="" size="40" aria-required="true">
-        </div>
-        <div class="form-field">
-            <label for="description">Description:</label>
-            <textarea name="description" id="description" rows="1" cols="40" aria-required="true"></textarea>
-        </div>
-        <input type = "submit" value = "submit" id = "submit-button"/> 
+
+            <label for="name">Name</label>
+            <input name="yourName" id="yourName" type="text" value="" size="40" aria-required="true" required>
+
+
+
+  <label for="question1">question1:</label>
+  <select name="question1" id="question1" required>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+  </select>
+
+  <label for="question2">question2:</label>
+  <select name="question2" id="question2">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+  </select>
+
+  <label for="question3">Question3:</label>
+  <select name="question3" id="question3">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+  </select>
+
+  <label for="question4">Question4:</label>
+  <select name="question4" id="question4">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+  </select>
+
+  <label for="question5">Question5:</label>
+  <select name="question5" id="question5">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+  </select>
+
+  <label for="question6">Question6:</label>
+  <select name="question6" id="question6">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+  </select>
+
+  <label for="question7">Question7:</label>
+  <select name="question7" id="question7">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+  </select>
+
+  <label for="question8">Question8:</label>
+  <select name="question8" id="question8">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+  </select>
+
+  <label for="question9">Question9:</label>
+  <select name="question9" id="question9">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+  </select>
+
+  <label for="question10">Question 10 :</label>
+  <select name="question10" id="question10">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+  </select>
+
+
+        <input type = "submit" value = "submit" id = "submit-button"/>
     </form>
+
+    <br>
+    <br>
+    <a href = '/'>go back</a><br>
+    <a href = "/api">see the super awesome bestest json API interface</a>
 </body>
 </html>
